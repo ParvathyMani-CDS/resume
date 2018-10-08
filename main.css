@@ -1,0 +1,21 @@
+.header{
+  background-color: #04eaf5;
+  font-family: cursive;
+  font-size: 25px;
+  height: 120px;
+}
+li{
+  padding: 20px;
+}
+
+.content, .table{
+  font-style: italic;
+  font-family: cursive;
+  font-size: 20px;
+}
+dt, th{
+  color: #007bff;
+}
+header{
+  height: 150px;
+}
