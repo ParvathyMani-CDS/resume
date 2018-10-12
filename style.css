@@ -1,0 +1,102 @@
+header, .navcontent{
+  font-family:Georgia, serif;
+  font-size: 20px;
+  font-style: italic;
+  background: #6666ff;
+}
+/*.col5{
+  padding-right: 0px;
+  padding-left:0px;
+}*/
+.li{
+  color: white;
+}
+body{
+  font-family:Georgia, serif;
+  font-size: 20px;
+  font-style: italic;
+}
+.bttn{
+    background: #6666ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+.body{
+  background-image: url(logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 30%;
+}
+.backarrow{
+  font-size:30px;
+  border: none;
+  padding-right:20px;
+  background: transparent;
+  color:white;
+}
+.cam{
+  background:transparent;
+  color:#284E78;
+  font-size: 25px;
+}
+.useravatar{
+  background-color: white;
+  color: #284E78;
+  font-size: 50px;
+}
+.actionbutton{
+  background: transparent;
+  border: none;
+  color:black;
+  text-align: left;
+  font-family:Georgia, serif;
+  font-size: 20px;
+  font-style: italic;
+}
+.actionbutton:hover{
+  background-color: white;
+}
+.editbutton{
+  font-size:24px;
+  color: black;
+  float: right;
+  border: none;
+  text-align: right;
+}
+#space{
+  padding-top: 40px;
+  padding-left: 25px;
+}
+#delete{
+  color: red;
+}
+#itagchangeno{
+  padding-left: 384px;
+}
+#ichangepwd{
+  padding-left: 369px;
+}
+#iabout{
+  padding-left: 475px;
+}
+#iname{
+ float: right;
+}
+#otp{
+  float: right;
+}
+#danger{
+  background-color: red;
+  color: white;
+  float: left;
+}
+.background{
+  background-image: url(bg.jpg);
+  position: relative;
+  background-size: cover;
+  padding-bottom: 50%;
+}

@@ -1,0 +1,92 @@
+<html>
+<head>
+  <title>Profile update</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 content">
+      <nav class="navbar navbar-expand-sm profilecontent">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <button class="backarrow"><i class="fa fa-arrow-left"></i></button>
+            <li class="nav-item">
+          <a class="nav-link " style="color: white;" href="#"><b>Profile Setup</b></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+      <div id="space">
+      <center><img><i class="fa fa-user-circle-o useravatar"style="font-size: 200px;"></i></img>
+        <a href="#" class="cam"> <i class="fa fa-camera cam"></i> </a>
+      </div><br>
+      <div class="container-fluid">
+        <div>
+          <button class="btn btn-block actionbutton">Name<i class="fa" id="iname">&#xf040;</i></button>
+          <hr>
+        </div>
+        <div>
+          <button class="btn btn-block actionbutton">Number</button>
+          <hr>
+        </div>
+        <div>
+          <button class="btn btn-block actionbutton">About<i class="fa" id="iabout">&#xf040;</i></button>
+          <hr>
+        </div>
+<div>
+  <button class="btn btn-block actionbutton">Change Password<i class="fa" id="ichangepwd">&#xf040;</i></button>
+  <hr>
+</div>
+<div>
+  <button class="btn btn-block actionbutton">Change Number<i class="fa" id="itagchangeno">&#xf040;</i></button>
+  <hr>
+</div>
+<div>
+  <button class="btn btn-block actionbutton" style="color:red;">Delete Account</button>
+  <hr>
+</div>
+</div>
+  </div>
+<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 background widthsnd">
+     <!-- split of second division -->
+     <div class="header" id="myHeader">
+       <nav class="navbar navbar-expand-xl navbar-fixed-top bg navbar-dark verticalLine">
+         <!-- Brand/logo -->
+           <a class="navbar-brand" href="#">
+           <img class="image" src="img.jpg" alt="logo" style="width:40px;">
+         </a>
+         <ul class="navbar-nav">
+           <!-- <a class="nav-link textcolor" href="#">Contact name</a> -->
+           <h5 class="txt">Contact Name</h5>
+         </ul>
+         <!-- navbar icons -->
+         <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+           <a class="nav-link" href="#"><i class="fa fa-search"> </i></a>
+           <a class="nav-link" href="#"><i class="fa fa-paperclip"> </i></a>
+           <a class="nav-link" href="#"><i class="fa fa-bars"> </i></a>
+         </ul>
+       </nav>
+     </div>
+     <!-- keyboard code -->
+     <div class="tppad container verticalLine">
+       <div class="input-group mb-2 rtpadd ">
+         <div class="input-group-text microphonesz"><i class="fa fa-microphone icon"> </i>
+         </div>
+         <input class="form-control text txtsize" type="text" name="message" placeholder="type here">
+       <!-- <button class="btn emoji"><h1 id="h01">&#9786;</h1></button> -->
+         <div class="input-group-text"> <i class="btn emoji icon fa-lg" onclick="emoji();">&#9786;</i> </div>
+       </div>
+</div>
+</div>
+</div>
+</body>
+</html>
